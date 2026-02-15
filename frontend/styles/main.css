@@ -1,0 +1,70 @@
+[data-testid="stAppViewContainer"] {
+    background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.pred-card { 
+    border: 1px solid #e5e7eb; 
+    border-radius:15px; 
+    padding:20px; 
+    background:rgba(0,0,0,0.95); 
+    box-shadow:0 8px 16px rgba(255,255,255,0.15); 
+    max-width:320px; 
+    margin:24px auto; 
+    font-weight:600; 
+    text-align:center; 
+    color:#111827; 
+    backdrop-filter: blur(10px);
+}
+
+.record-btn { 
+    background: linear-gradient(45deg, #00BCD4, #0097A7); 
+    color: white; 
+    border: none; 
+    padding: 12px 24px; 
+    border-radius: 25px; 
+    font-weight: 600; 
+    font-size: 1.1rem; 
+    box-shadow: 0 4px 15px rgba(0, 188, 212, 0.4); 
+    width: 100%;
+}
+
+
+.stButton > button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 15px 40px rgba(0, 245, 212, 0.6);
+}
+
+
+.confidence-high { color: #10b981; font-weight: 700; }
+.confidence-medium { color: #f59e0b; font-weight: 700; }
+.confidence-low { color: #ef4444; font-weight: 700; }
+
+/* ===== FRONT PAGE / MAIN HEADER ===== */
+
+.header-container {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.main-heading {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+}
+
+.sub-heading {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #e5e7eb;
+    margin-top: 10px;
+}
+
+
+

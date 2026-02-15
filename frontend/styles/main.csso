@@ -1,0 +1,57 @@
+[data-testid="stAppViewContainer"] {
+    background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.main-title { 
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    margin-bottom: 0.5rem; 
+    text-align:center; 
+    color: #fff; 
+    text-shadow: 1px 1px 7px #000; 
+}
+
+.sub { 
+    color: #d1d5db; 
+    margin-bottom: 2rem; 
+    text-align:center; 
+    font-weight:500; 
+    font-size:1.2rem; 
+    text-shadow: 1px 1px 4px #000; 
+}
+
+.pred-card { 
+    border: 1px solid #e5e7eb; 
+    border-radius:15px; 
+    padding:20px; 
+    background:rgba(255,255,255,0.95); 
+    box-shadow:0 8px 16px rgba(0,0,0,0.15); 
+    max-width:320px; 
+    margin:24px auto; 
+    font-weight:600; 
+    text-align:center; 
+    color:#111827; 
+    backdrop-filter: blur(10px);
+}
+
+.record-btn { 
+    background: linear-gradient(45deg, #3b82f6, #1d4ed8); 
+    color: white; 
+    border: none; 
+    padding: 12px 24px; 
+    border-radius: 25px; 
+    font-weight: 600; 
+    font-size: 1.1rem; 
+    box-shadow: 0 4px 15px rgba(59,130,246,0.4); 
+    width: 100%;
+}
+
+.confidence-high { color: #10b981; font-weight: 700; }
+.confidence-medium { color: #f59e0b; font-weight: 700; }
+.confidence-low { color: #ef4444; font-weight: 700; }

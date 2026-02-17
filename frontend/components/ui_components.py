@@ -8,7 +8,7 @@ def load_styles():
 def render_header():
     """Render main header"""
     st.markdown('<div class="main-title">🎙️ Voice Age, Gender & Accent Classification</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub">CNN-BiLSTM With Transfer-Learning Model</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub">Resnet With Transfer-Learning Model</div>', unsafe_allow_html=True)
 
 def render_sidebar():
     """Render sidebar controls"""

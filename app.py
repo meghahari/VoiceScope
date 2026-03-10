@@ -34,10 +34,11 @@ GENDER_LABELS = [
 ]
 
 AGE_LABELS = {
-    0: "twenties",
-    1: "thirties",
-    2: "fifties",
-    3: "sixties"
+    0: "20-29",
+    1: "30-39",
+    2: "40-49",
+    3: "50-59",
+    4: "60-69"
 }
 
 

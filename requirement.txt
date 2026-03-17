@@ -1,0 +1,7 @@
+streamlit
+tensorflow
+librosa
+pydub
+numpy
+streamlit-webrtc
+aiortc
